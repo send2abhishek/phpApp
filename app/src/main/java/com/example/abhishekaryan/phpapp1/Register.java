@@ -63,6 +63,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
                 backgroundTask.execute(method, nameText, passwordText, contactText, countryText);
 
             } else {
+                
 
                 Toast.makeText(this,"You are offline!!!!",Toast.LENGTH_SHORT).show();
                 Log.v("Home", "############################You are not online!!!!");
